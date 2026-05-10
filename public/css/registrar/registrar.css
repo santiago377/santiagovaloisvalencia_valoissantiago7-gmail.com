@@ -1,0 +1,30 @@
+        body{
+            background: linear-gradient(135deg, #74ebd5, #9face6);
+            min-height: 100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+
+        .card{
+            width: 450px;
+            border:none;
+            border-radius:20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,.2);
+        }
+
+        .titulo{
+            font-weight:bold;
+            color:#0d6efd;
+        }
+
+        .btn-custom{
+            width:100%;
+            border-radius:10px;
+            font-weight:bold;
+        }
+
+        #mensaje{
+            font-weight:bold;
+            text-align:center;
+        }
